@@ -4,7 +4,7 @@ import axios from "axios";
 
 // Create an Axios instance with default config
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:3000/api/v1",
+  baseURL: "https://vidtube1.onrender.com/",
   timeout: 10000,
   headers: {
       Authorization: `Bearer ${localStorage.getItem("token")}`,
